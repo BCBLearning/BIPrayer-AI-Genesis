@@ -58,6 +58,4 @@ BIPrayer AI Genesis is the world's first intelligent spiritual assistant that se
 ### Quick Start
 **Clone the repository:**
 '''bash 
-git clone [https://github.com/B](https://github.com/BCBLearning/BIPrayer-AI-Genesis/)
-   ```bash
-   git clone https://github.com/AI-Faith-Guardians/BIPrayer-AI-Genesis.git
+https://github.com/BCBLearning/BIPrayer-AI-Genesis.git
