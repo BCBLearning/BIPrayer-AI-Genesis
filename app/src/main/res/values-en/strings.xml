@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Info -->
+    <string name="app_name">BIPrayer AI Genesis</string>
+    <string name="app_title">🕌 BIPrayer AI Genesis</string>
+    <string name="app_subtitle">Your Intelligent Spiritual Assistant</string>
+    <string name="app_version">Version 1.0.0</string>
+
+    <!-- Activity Titles -->
+    <string name="main_title">Home</string>
+    <string name="quran_title">Smart Quran</string>
+    <string name="prayer_times_title">Prayer Times</string>
+    <string name="camera_title">Smart Camera</string>
+    <string name="settings_title">Settings</string>
+    <string name="help_title">Help &amp; Support</string>
+
+    <!-- Main Activity -->
+    <string name="welcome_message">Welcome to BIPrayer AI</string>
+    <string name="ask_question_hint">Ask your spiritual question…</string>
+    <string name="send_button">Send</string>
+    <string name="quran_card">📖 Quran AI</string>
+    <string name="prayer_times_card">🕌 Times</string>
+    <string name="camera_card">📸 Camera</string>
+    <string name="settings_card">⚙️ Settings</string>
+
+    <!-- Buttons -->
+    <string name="button_ask_gemini">💬 Ask Gemini</string>
+    <string name="button_quran_ai">📖 Quran AI</string>
+    <string name="button_prayer_times">🕌 Times</string>
+    <string name="button_gallery">🖼️ Gallery</string>
+    <string name="button_audio">🎵 Audio</string>
+    <string name="button_language">🌍 Language</string>
+    <string name="button_capture">📸 Capture</string>
+    <string name="button_analyze">🔍 Analyze</string>
+    <string name="button_save">💾 Save</string>
+    <string name="button_test">🧪 Test</string>
+    <string name="button_reset">🔄 Reset</string>
+    <string name="button_help">❓ Help</string>
+    <string name="button_back">⬅️ Back</string>
+    <string name="button_next">Next ➡️</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+    
+    <!-- Settings -->
+    <string name="settings_header">⚙️ Settings</string>
+    <string name="language_section">🌍 Language</string>
+    <string name="auto_detect">Auto Detect</string>
+    <string name="preferences_section">🔔 Preferences</string>
+    <string name="notifications">Notifications</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="calculation_section">🕌 Prayer Calculation</string>
+    <string name="location_section">📍 Manual Location</string>
+    <string name="location">Location</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="api_status">Services Status</string>
+    
+    <!-- Calculation Methods -->
+    <string name="method_mwl">Muslim World League (MWL)</string>
+    <string name="method_isna">Islamic Society of North America (ISNA)</string>
+    <string name="method_egypt">Egyptian General Authority</string>
+    <string name="method_makkah">Umm al-Qura, Makkah</string>
+    
+    <!-- Input Hints -->
+    <string name="hint_question">Ask your spiritual question…</string>
+    <string name="hint_search_quran">Search in Quran…</string>
+    <string name="hint_latitude">Latitude</string>
+    <string name="hint_longitude">Longitude</string>
+    
+    <!-- Status Messages -->
+    <string name="status_initialized">✅ All AI services initialized</string>
+    <string name="status_thinking">🤔 Thinking…</string>
+    <string name="status_querying_gemini">Querying Gemini…</string>
+    <string name="status_response_received">Response received</string>
+    <string name="status_demo_mode">Demo mode</string>
+    <string name="status_searching_quran">Searching Quranic wisdom…</string>
+    <string name="status_quran_found">Quranic knowledge found</string>
+    <string name="status_default_verses">Default verses</string>
+    <string name="status_analyzing_image">Analyzing image with Gemini Vision…</string>
+    <string name="status_image_success">Image analysis successful</string>
+    <string name="status_generating_audio">Generating audio…</string>
+    <string name="status_audio_generated">Audio generated</string>
+    <string name="status_loading">Loading…</string>
+    <string name="status_success">Success</string>
+    <string name="status_error">Error</string>
+    <string name="status_initializing">Initializing...</string>
+    <string name="initial_response_message">Press the button to start...</string>
+    <string name="status_testing_apis">Testing APIs...</string>
+    <string name="status_operational">Operational</string>
+    <string name="status_configured">Configured</string>
+    <string name="in_progress">In progress...</string>
+    <string name="configuration">Configuration</string>
+    <string name="connected">Connected</string>
+    <string name="error">Error</string>
+    
+    <!-- Content Titles -->
+    <string name="quranic_wisdom">Quranic Wisdom</string>
+    <string name="prayer_times_extracted">Prayer times extracted</string>
+    <string name="verse_of_day">Verse of the Day</string>
+    <string name="random_verse">Random Verse</string>
+    <string name="search_results">Search Results</string>
+    <string name="themes">Themes</string>
+    
+    <!-- Prayer Times -->
+    <string name="fajr">Fajr</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="dhuhr">Dhuhr</string>
+    <string name="asr">Asr</string>
+    <string name="maghrib">Maghrib</string>
+    <string name="isha">Isha</string>
+    <string name="next_prayer">Next Prayer</string>
+    <string name="qibla_direction">Qibla Direction</string>
+    <string name="refresh">Refresh</string>
+    
+    <!-- Camera -->
+    <string name="camera_instructions">Capture a photo of a prayer timetable</string>
+    <string name="analyze_image">Analyze Image</string>
+    <string name="select_from_gallery">Select from Gallery</string>
+    <string name="photo_captured">Photo Captured</string>
+    <string name="image_selected">Image Selected</string>
+    <string name="camera_initial_message">Press Capture or choose an image from gallery</string>
+    <string name="toast_no_image">No image selected</string>
+    
+    <!-- Dialog & Toast Messages -->
+    <string name="toast_enter_question">Please enter a question</string>
+    <string name="toast_language_changed">Language changed to %1$s</string>
+    <string name="toast_quran_success">Qdrant search successful!</string>
+    <string name="toast_camera_error">Camera error: %1$s</string>
+    <string name="toast_image_error">Image loading error: %1$s</string>
+    <string name="toast_no_valid_text">No valid text to synthesize</string>
+    <string name="toast_voice_not_configured">Voice synthesis not configured</string>
+    <string name="toast_voice_in_progress">Voice synthesis in progress…</string>
+    <string name="auto_detect_enabled">Auto language detection enabled</string>
+    <string name="settings_saved">Settings saved successfully</string>
+    <string name="settings_error">Error saving settings</string>
+    <string name="reset_complete">Reset completed</string>
+    <string name="test_complete">Test completed</string>
+    
+    <!-- Language Dialog -->
+    <string name="dialog_choose_language">🌍 Choose Language</string>
+    <string name="dialog_confirm_language">Change language?</string>
+    <string name="dialog_confirm_auto_detect">Use system language?</string>
+    <string name="dialog_confirm_reset">Reset all settings?</string>
+    
+    <!-- Default Content -->
+    <string name="default_verse">📖 «And remember your Lord within yourself in humility and fear…» (Quran 7:205)</string>
+    <string name="default_search_query">spiritual guidance</string>
+    <string name="no_results">No results found</string>
+    
+    <!-- Error Messages -->
+    <string name="error_api_not_configured">❌ Error: API key not configured. Please check keys.properties</string>
+    <string name="error_connection">❌ Connection error: %1$s</string>
+    <string name="error_gemini_api">❌ Gemini API Error</string>
+    <string name="error_general">❌ An error occurred</string>
+    <string name="error_no_internet">❌ No internet connection</string>
+    <string name="error_location">❌ Location error</string>
+    <string name="error_label">Error:</string>
+    <string name="error_response">Response error: %s</string>
+    <string name="error_demo_mode">Error - Demo mode</string>
+    <string name="test_error">Test error: %s</string>
+    <string name="startup_error">Startup error: %s</string>
+
+    <!-- Help Content -->
+    <string name="help_content">🕌 BIPrayer AI - Help &amp; Support\n\n📱 Main Features:\n\n• Gemini AI Assistant - Spiritual questions and advice\n• Smart Quran - Search by themes and keywords\n• Prayer Times - Automatic calculation with geolocation\n• Qibla Direction - Built-in compass\n• Smart Camera - Image analysis with Gemini Vision\n\n⚙️ Required Configuration:\n\n1. Gemini API Key (Free):\n   • Go to https://aistudio.google.com/\n   • Create a Google account\n   • Generate an API key\n   • Add it in assets/keys.properties\n\n2. Permissions:\n   • Location for prayer times\n   • Camera for image analysis\n   • Storage for gallery\n\n🔧 Troubleshooting:\n\n• Connection problem: Check your API key\n• Incorrect times: Enable geolocation\n• Camera not working: Grant permissions\n• App slow: Restart the application\n\n🌍 Supported Languages:\n\n• French\n• English\n• Arabic\n\n📞 Support:\n\nFor any technical questions:\n• Email: support@besmainfo.com\n• Website: https://besmainfo.com\n\n© 2024 BIPrayer AI - All rights reserved\nDeveloped with ❤️ for the Muslim community\n\nVersion: 1.0.0 - Hackathon Edition</string>
+    <string name="copyright">© 2024 BIPrayer AI - All rights reserved</string>
+    
+    <!-- Quran Service -->
+    <string name="search_verse">Search verse</string>
+    <string name="daily_verse">Daily verse</string>
+    <string name="random_verse_button">Random verse</string>
+    <string name="tafsir">Tafsir</string>
+    <string name="patience">Patience</string>
+    <string name="gratitude">Gratitude</string>
+    <string name="hope">Hope</string>
+    <string name="prayer">Prayer</string>
+    <string name="wisdom">Wisdom</string>
+    <string name="forgiveness">Forgiveness</string>
+    
+    <!-- === NEW STRINGS FOR INTERNATIONALIZATION === -->
+
+    <!-- Titles -->
+    <string name="gemini_assistant_title">💬 Gemini AI Assistant</string>
+    <string name="features_title">🌟 Features</string>
+
+    <!-- Icons and subtitles for cards -->
+    <string name="quran_icon">📖</string>
+    <string name="quran_subtitle">Divine wisdom</string>
+
+    <string name="prayer_icon">🕌</string>
+    <string name="prayer_subtitle">Prayer times</string>
+
+    <string name="camera_icon">📷</string>
+    <string name="camera_subtitle">Image analysis</string>
+
+    <string name="settings_icon">⚙️</string>
+    <string name="settings_subtitle">Configuration</string>
+
+    <!-- Prayer Times Activity -->
+    <string name="loading_prayer_times">Loading prayer times...</string>
+    <string name="button_refresh">🔄 Refresh</string>
+    <string name="button_qibla">🕋 Qibla</string>
+    <string name="qibla_instructions">Turn your device towards Qibla</string>
+
+    <!-- Quran Activity -->
+    <string name="search_icon">🔍</string>
+    <string name="button_daily_verse">📅 Daily</string>
+    <string name="button_random_verse">🎲 Random</string>
+    <string name="button_themes">🏷️ Themes</string>
+    <string name="popular_themes">Popular themes:</string>
+    <string name="quran_initial_message">Click a button to explore the Quran...</string>
+
+    <!-- Settings Activity -->
+    <string name="loading">Loading...</string>
+
+    <!-- Navigation -->
+    <string name="opening_quran">Opening Quran...</string>
+    <string name="error_opening_quran">Error opening Quran</string>
+    <string name="opening_prayer_times">Opening prayer times...</string>
+    <string name="error_opening_prayer_times">Error opening prayer times</string>
+    <string name="opening_camera">Opening camera...</string>
+    <string name="error_opening_camera">Error opening camera</string>
+    <string name="opening_settings">Opening settings...</string>
+    <string name="error_opening_settings">Error opening settings</string>
+
+    <!-- API Status -->
+    <string name="api_key_detected">API key detected</string>
+    <string name="demo_mode">Demo mode</string>
+    <string name="initialized">Initialized</string>
+    <string name="initialization_error">Initialization error</string>
+    <string name="gemini_initialization_error">Gemini initialization error</string>
+    <string name="testing_connection">Testing connection...</string>
+    <string name="connection_success">Connection successful</string>
+    <string name="gemini_operational">Gemini operational</string>
+    <string name="configuration_required">Configuration required</string>
+    <string name="activation_steps">Activation steps...</string>
+    <string name="status_label">Status: %s</string>
+
+    <!-- Quran Activity -->
+    <string name="enter_search_query">Please enter a search query</string>
+    <string name="search_results_for">Results for: %s</string>
+    <string name="search_error">Search error</string>
+    <string name="daily_verse_header">📖 Verse of the Day</string>
+    <string name="daily_verse_footer">Happy meditation!</string>
+    <string name="daily_verse_title">Daily Verse</string>
+    <string name="daily_verse_error">Daily verse error</string>
+    <string name="random_verse_header">🎲 Random Verse</string>
+    <string name="random_verse_footer">May this verse inspire you!</string>
+    <string name="random_verse_title">Random Verse</string>
+    <string name="random_verse_error">Random verse error</string>
+    <string name="theme_patience">Patience</string>
+    <string name="theme_prayer">Prayer</string>
+    <string name="theme_gratitude">Gratitude</string>
+    <string name="theme_hope">Hope</string>
+    <string name="theme_wisdom">Wisdom</string>
+    <string name="theme_forgiveness">Forgiveness</string>
+    <string name="theme_results">Results for theme: %s</string>
+    <string name="theme_search_error">Theme search error</string>
+    <string name="no_verses_found">No verses found</string>
+    <string name="results_title">Results</string>
+
+    <!-- Prayer Times Activity -->
+    <string name="compass_not_available">Compass not available</string>
+    <string name="next_prayer_format">🕌 Next prayer: %1$s - %2$s (in %3$s)</string>
+    <string name="prayer_times_error">Prayer times error</string>
+    <string name="prayer_times_loading_error">Prayer times loading error</string>
+    <string name="back_button">Back</string>
+    <string name="compass_activation_error">Compass activation error</string>
+    <string name="qibla_direction_format">Qibla Direction: %.1f°</string>
+    <string name="qibla_calculation_error">Qibla calculation error</string>
+    <string name="qibla_direction_detailed">Qibla direction detected: %.1f°</string>
+
+    <!-- Camera Activity -->
+    <string name="photo_captured_ready">Photo captured - Ready for analysis</string>
+    <string name="capture_error">Capture error: %s</string>
+    <string name="no_image_to_analyze">No image to analyze</string>
+    <string name="analysis_complete">Analysis complete</string>
+    <string name="analysis_error">Analysis error: %s</string>
+    <string name="analysis_failed">Analysis failed</string>
+    <string name="image_selected_ready">Image selected - Ready for analysis</string>
+
+    <!-- === STRINGS FOR MULTILINGUAL AI SERVICES === -->
+    <string name="api_status_title">AI Services Status</string>
+    <string name="api_not_configured">API not configured</string>
+    <string name="summary">Summary</string>
+    <string name="ready_for_use">Ready for use</string>
+    <string name="demo_mode_active">Demo mode active</string>
+    <string name="test_completed">Test completed</string>
+    <string name="current_configuration">Current Configuration</string>
+    <string name="api_configured">API Configured</string>
+    <string name="not_configured">Not Configured</string>
+    <string name="recommendations">Recommendations</string>
+    <string name="configure_gemini">Configure Gemini AI for advanced responses</string>
+    <string name="configure_opus">Configure Opus for voice synthesis</string>
+    <string name="configure_qdrant">Configure Qdrant for semantic search</string>
+
+    <!-- Configuration instructions -->
+    <string name="how_to_configure">How to configure:</string>
+    <string name="step_gemini">Gemini: https://aistudio.google.com/ (Free)</string>
+    <string name="step_qdrant">Qdrant: https://cloud.qdrant.io/ (Free)</string>
+    <string name="step_opus">Opus: https://opus.ai/</string>
+    <string name="step_restart">Restart app after configuration</string>
+
+    <!-- Gemini AI Messages -->
+    <string name="gemini_demo_mode">🕌 BIPrayer AI - Spiritual Assistant\n\nI\'m here to assist you in your spiritual journey. For more personalized responses, enable Gemini AI.\n\n💡 Daily Tip:\n\"Seeking knowledge is an obligation upon every Muslim.\" - Prophet Mohammed ﷺ</string>
+    <string name="gemini_guidance_message">🌙 Islamic Guidance\n\nWhat would you like to know about:\n• Prayer and its merits\n• The pillars of Islam\n• Muslim ethics\n• Quranic exegesis\n\n\"Whoever treads a path in search of knowledge, Allah will make easy for him the path to Paradise.\" - Hadith</string>
+    <string name="gemini_config_help">\n\n🔧 To enable Gemini AI:\n1. Get a FREE key at https://aistudio.google.com/\n2. Modify assets/keys.properties\n3. Add: GEMINI_API_KEY=your_key_here\n4. Restart the application</string>
+    <string name="gemini_api_missing">❌ API key missing or invalid</string>
+    <string name="gemini_connected">✅ Gemini API: Connected with</string>
+
+    <string name="gemini_connection_error">❌ Error:</string>
+
+    <!-- Prayer Knowledge Base -->
+    <string name="prayer_advice_1">🕌 Prayer Advice\n\nPrayer (Salah) is the second pillar of Islam. The 5 daily prayers are:\n\n• Fajr (dawn) - 2 rak\'ahs\n• Dhuhr (noon) - 4 rak\'ahs\n• Asr (afternoon) - 4 rak\'ahs\n• Maghrib (sunset) - 3 rak\'ahs\n• Isha (night) - 4 rak\'ahs\n\n\"When any one of you prays, he is speaking privately with his Lord.\" - Hadith</string>
+    <string name="prayer_advice_2">📖 Importance of Prayer\n\n\"Prayer prohibits immorality and wrongdoing.\" (Quran 29:45)\n\nRegular prayer purifies the soul and strengthens the connection with Allah.</string>
+
+    <!-- Quran Knowledge Base -->
+    <string name="quran_wisdom_1">📖 Quranic Wisdom\n\n\"O you who have believed, seek help through patience and prayer...\" (Surah 2, Verse 153)\n\n\"And remember your Lord within yourself in humility and fear...\" (Surah 7, Verse 205)</string>
+    <string name="quran_wisdom_2">🌙 Revelation of the Quran\n\n\"We sent it down during a blessed night...\" (Surah 44, Verse 3)\n\nThe Quran is the eternal word of Allah, preserved until the Last Day.</string>
+
+    <!-- Allah Knowledge Base -->
+    <string name="allah_wisdom_1">🌌 The Greatness of Allah\n\n\"Allah - there is no deity except Him. To Him belong the best names.\" (Surah 20, Verse 8)\n\nThe 99 names of Allah reveal His perfect attributes.</string>
+    <string name="allah_wisdom_2">🤲 Tawhid - Oneness\n\n\"Say, He is Allah, the One. Allah, the Eternal Refuge.\" (Surah 112)</string>
+
+    <!-- Islam Knowledge Base -->
+    <string name="islam_pillars_1">🌍 The 5 Pillars of Islam\n\n1. The testimony of faith (Shahada)\n2. Prayer (Salah)\n3. Charity (Zakat)\n4. Fasting (Sawm)\n5. Pilgrimage (Hajj)</string>
+    <string name="islam_pillars_2">🌟 The 6 Pillars of Faith\n\n1. Belief in Allah\n2. Belief in His angels\n3. Belief in His books\n4. Belief in His messengers\n5. Belief in the Last Day\n6. Belief in divine decree</string>
+
+    <!-- Opus Messages -->
+    <string name="opus_not_configured">❌ Opus API key not configured. Check keys.properties</string>
+    <string name="opus_no_text">❌ No text provided for synthesis</string>
+    <string name="opus_unauthorized">❌ Opus API: Unauthorized - Check your API key</string>
+    <string name="opus_bad_request">❌ Opus API: Bad request - Invalid parameters</string>
+    <string name="opus_api_error">❌ Opus API Error</string>
+    <string name="opus_connection_error">❌ Opus connection error:</string>
+    <string name="opus_connection_success">✅ Opus API connection successful</string>
+    <string name="opus_connection_failed">❌ Opus API connection failed:</string>
+    <string name="opus_connection_test_failed">❌ Opus connection test failed:</string>
+    <string name="opus_audio_generated">✅ Audio generated successfully!\nURL:</string>
+    <string name="opus_audio_generated_base64">✅ Audio generated successfully! (Base64 data)</string>
+    <string name="opus_job_created">✅ Synthesis job created! Job ID:</string>
+    <string name="opus_audio_completed">✅ Audio generation completed:</string>
+    <string name="opus_error_400">Bad Request - Invalid parameters</string>
+    <string name="opus_error_401">Unauthorized - Invalid API key</string>
+    <string name="opus_error_403">Forbidden - Insufficient permissions</string>
+    <string name="opus_error_404">Not Found - Endpoint not found</string>
+    <string name="opus_error_429">Rate Limit Exceeded</string>
+    <string name="opus_error_500">Internal Server Error</string>
+    <string name="opus_error_503">Service Unavailable</string>
+    <string name="opus_error_unknown">Unknown error</string>
+
+    <!-- Qdrant Messages -->
+    <string name="qdrant_not_configured">Qdrant not configured</string>
+    <string name="qdrant_search_error">Search error:</string>
+    <string name="qdrant_error">Error:</string>
+    <string name="qdrant_search_for">Qdrant search for:</string>
+
+<!-- Help Activity Detailed Strings -->
+<string name="help_title_main">🕌 BIPrayer AI - Help &amp; Support</string>
+<string name="help_features_title">📱 Main Features:</string>
+<string name="help_features_content">• Gemini AI Assistant - Spiritual questions and advice
+• Smart Quran - Search by themes and keywords
+• Prayer Times - Automatic calculation with geolocation
+• Qibla Direction - Built-in compass
+• Smart Camera - Image analysis with Gemini Vision</string>
+<string name="help_config_title">⚙️ Required Configuration:</string>
+<string name="help_config_content">1. Gemini API Key (Free):
+   • Go to https://aistudio.google.com/
+   • Create a Google account
+   • Generate an API key
+   • Add it in assets/keys.properties
+
+2. Permissions:
+   • Location for prayer times
+   • Camera for image analysis
+   • Storage for gallery</string>
+<string name="help_troubleshooting_title">🔧 Troubleshooting:</string>
+<string name="help_troubleshooting_content">• Connection problem: Check your API key
+• Incorrect times: Enable geolocation
+• Camera not working: Grant permissions
+• App slow: Restart the application</string>
+<string name="help_languages_title">🌍 Supported Languages:</string>
+<string name="help_languages_content">• French
+• English
+• Arabic</string>
+<string name="help_support_title">📞 Support:</string>
+<string name="help_support_content">For any technical questions:
+• Email: besmainfo2025@gmail.com
+• Website: https://besmainfo.com</string>
+<string name="help_footer">© 2025 BIPrayer AI - All rights reserved
+Developed with ❤️ for the Muslim community
+
+Version: 1.0.0 - Hackathon Edition</string>
+
+<!-- Strings supplémentaires pour les clients AI -->
+<string name="extraction_error">Extraction error: </string>
+<string name="with">with</string>
+<string name="exception_with">Exception with</string>
+<string name="automation_created">Automation created: </string>
+<string name="automation_failed">Automation creation failed: </string>
+<string name="available_voices">Available voices: </string>
+<string name="failed_get_voices">Failed to get voices: </string>
+<string name="error_getting_voices">Error getting voices: </string>
+<string name="no_text">No text</string>
+<string name="error_parsing">Error parsing: </string>
+
+
+
+
+</resources>
