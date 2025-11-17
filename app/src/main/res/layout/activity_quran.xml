@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/light_gray">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- En-tête -->
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/quran_title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Barre de recherche -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <EditText
+                android:id="@+id/editTextSearch"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/hint_search_quran"
+                android:padding="12dp"
+                android:background="@drawable/edittext_background"
+                android:imeOptions="actionSearch" />
+
+            <Button
+                android:id="@+id/btnSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/search_icon"
+                android:layout_marginStart="8dp"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <!-- Boutons d'action rapide -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/btnDailyVerse"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/button_daily_verse"
+                android:layout_marginEnd="4dp"
+                android:background="@drawable/button_primary"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btnRandomVerse"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/button_random_verse"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                android:background="@drawable/button_primary"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btnThemes"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/button_themes"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/button_primary"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <!-- Layout des thèmes (caché par défaut) -->
+        <LinearLayout
+            android:id="@+id/layoutThemes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp"
+            android:background="@color/white"
+            android:elevation="2dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/popular_themes"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Les boutons de thèmes seront ajoutés dynamiquement -->
+
+        </LinearLayout>
+
+        <!-- Zone des résultats -->
+        <TextView
+            android:id="@+id/textViewResults"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/quran_initial_message"
+            android:textSize="14sp"
+            android:padding="16dp"
+            android:background="@color/white"
+            android:textColor="@color/text_primary"
+            android:elevation="2dp" />
+
+    </LinearLayout>
+
+</ScrollView>

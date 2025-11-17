@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/light_gray">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- En-tête -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/prayer_times_title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Prochaine prière -->
+        <TextView
+            android:id="@+id/textViewNextPrayer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/loading_prayer_times"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:padding="12dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Boutons d'action -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/btnRefresh"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/button_refresh"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/button_primary"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btnQibla"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/button_qibla"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/button_primary"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <!-- Section Qibla (cachée par défaut) -->
+        <LinearLayout
+            android:id="@+id/layoutQibla"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp"
+            android:background="@color/white"
+            android:layout_marginBottom="16dp"
+            android:elevation="2dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textViewQibla"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/qibla_direction"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Simple View avec background coloré pour la boussole -->
+            <View
+                android:id="@+id/viewCompass"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/qibla_instructions"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:textColor="@color/text_secondary" />
+
+        </LinearLayout>
+
+        <!-- Horaires de prière -->
+        <TextView
+            android:id="@+id/textViewPrayerTimes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/loading_prayer_times"
+            android:textSize="14sp"
+            android:padding="16dp"
+            android:background="@color/white"
+            android:textColor="@color/text_primary"
+            android:elevation="2dp" />
+
+    </LinearLayout>
+
+</ScrollView>
