@@ -1,0 +1,13 @@
+# 🔐 API Configuration Template
+# ⚠️ SECURITY WARNING: Never commit actual keys to version control!
+# Rename this file to 'keys.properties' and add your actual keys
+
+# Gemini AI (Free) - https://aistudio.google.com/
+GEMINI_API_KEY=your_actual_gemini_api_key_here
+
+# Qdrant Vector DB - https://cloud.qdrant.io/
+QDRANT_API_KEY=your_actual_qdrant_api_key_here
+QDRANT_BASE_URL=https://your-cluster.qdrant.io
+
+# Opus TTS - https://opus.ai/ (Optional)
+OPUS_API_KEY=your_actual_opus_api_key_here
