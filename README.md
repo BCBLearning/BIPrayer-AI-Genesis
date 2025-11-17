@@ -1,6 +1,24 @@
 # 🕌 BIPrayer AI Genesis
 **Intelligent Spiritual Assistant - Where Faith Meets Artificial Intelligence**
- 
+
+ ---
+<div align="center">
+
+## 🎯 HACKATHON 2025 - VERSION JUGES
+
+**📱 Télécharger l'APK de démonstration :**
+
+[![Download APK](https://img.shields.io/badge/Download-APK_DE_DÉMO-brightgreen?style=for-the-badge&logo=android)](https://github.com/BCBLearning/BIPrayer-AI-Genesis/releases/download/v1.0.0-hackathon/BIPrayer-AI-Genesis-v1.0.0-hackathon.apk)
+
+
+
+*✨ Installation 30s - Mode démo instantané - Android 5.0+*
+
+[📖 Voir le guide de test rapide](/docs/JUDGES_GUIDE.md)
+
+</div>
+
+---
 *Built entirely on mobile • Multi-language support • AI-powered guidance*
  
 [![Android](https://img.shields.io/badge/Android-5.0%2B-brightgreen.svg)](https://android.com)
