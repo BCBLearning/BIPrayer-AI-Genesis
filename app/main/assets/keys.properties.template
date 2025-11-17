@@ -1,0 +1,44 @@
+# 🔐 BIPrayer AI Genesis - API Configuration Template
+# ⚠️ SECURITY WARNING: Never commit actual API keys to version control!
+# 🔄 INSTRUCTIONS: 
+# 1. Rename this file to 'keys.properties'
+# 2. Replace the placeholder values with your actual API keys
+# 3. Keep the actual file secure and never share it publicly
+
+# =============================================
+# 🤖 GEMINI AI CONFIGURATION (REQUIRED for AI features)
+# =============================================
+# Get FREE API key: https://aistudio.google.com/
+# - Create Google account
+# - Go to Google AI Studio
+# - Generate API key
+# - Copy-paste below
+GEMINI_API_KEY=your_actual_gemini_api_key_here
+
+# =============================================
+# 🔍 QDRANT VECTOR DATABASE (OPTIONAL for semantic search)
+# =============================================
+# Get FREE account: https://cloud.qdrant.io/
+# - Create Qdrant Cloud account
+# - Create cluster
+# - Get API key and URL
+QDRANT_API_KEY=your_actual_qdrant_api_key_here
+QDRANT_BASE_URL=https://your-cluster.qdrant.io
+
+# =============================================
+# 🎵 OPUS TEXT-TO-SPEECH (OPTIONAL for voice features)
+# =============================================
+# Get API key: https://opus.ai/
+OPUS_API_KEY=your_actual_opus_api_key_here
+
+# =============================================
+# 🔧 ADVANCED CONFIGURATION (Optional)
+# =============================================
+# Prayer calculation method (MWL, ISNA, Egypt, Makkah)
+PRAYER_CALCULATION_METHOD=MWL
+
+# Language preference (fr, en, ar)
+DEFAULT_LANGUAGE=auto
+
+# AI model preference (gemini-pro, gemini-1.5-pro)
+AI_MODEL=gemini-pro
