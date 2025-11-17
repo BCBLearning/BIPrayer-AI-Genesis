@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="languages">
+        <item>Français</item>
+        <item>English</item>
+        <item>العربية</item>
+    </string-array>
+    
+    <string-array name="calculation_methods">
+        <item>Muslim World League (MWL)</item>
+        <item>Islamic Society of North America (ISNA)</item>
+        <item>Egyptian General Authority</item>
+        <item>Umm al-Qura, Makkah</item>
+    </string-array>
+    
+    <string-array name="prayer_names">
+        <item>Fajr</item>
+        <item>Lever du soleil</item>
+        <item>Dhuhr</item>
+        <item>Asr</item>
+        <item>Maghrib</item>
+        <item>Isha</item>
+    </string-array>
+    
+    <string-array name="quran_themes">
+        <item>Patience</item>
+        <item>Gratitude</item>
+        <item>Espoir</item>
+        <item>Prière</item>
+        <item>Sagesse</item>
+        <item>Pardon</item>
+    </string-array>
+</resources>
