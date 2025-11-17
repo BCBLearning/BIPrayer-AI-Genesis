@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="languages">
+        <item>الفرنسية</item>
+        <item>الإنجليزية</item>
+        <item>العربية</item>
+    </string-array>
+    
+    <string-array name="calculation_methods">
+        <item>رابطة العالم الإسلامي (MWL)</item>
+        <item>الجمعية الإسلامية لأمريكا الشمالية (ISNA)</item>
+        <item>الهيئة العامة المصرية</item>
+        <item>أم القرى، مكة</item>
+    </string-array>
+    
+    <string-array name="prayer_names">
+        <item>الفجر</item>
+        <item>الشروق</item>
+        <item>الظهر</item>
+        <item>العصر</item>
+        <item>المغرب</item>
+        <item>العشاء</item>
+    </string-array>
+    
+    <string-array name="quran_themes">
+        <item>الصبر</item>
+        <item>الشكر</item>
+        <item>الأمل</item>
+        <item>الصلاة</item>
+        <item>الحكمة</item>
+        <item>المغفرة</item>
+    </string-array>
+</resources>
