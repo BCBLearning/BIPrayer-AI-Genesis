@@ -1,34 +1,39 @@
-# Gradle files
+# 🔒 BIPrayer AI Genesis - Git Ignore
+# 🏗️ Build outputs
 .gradle/
 build/
-
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Log/OS Files
-*.log
-
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
 *.apk
+*.aab
 output-metadata.json
 
-# IntelliJ
+# 🔐 SECURITY - API KEYS (CRITICAL FOR HACKATHON)
+keys.properties
+*.keystore
+*.jks
+google-services.json
+
+# 📱 Android configuration
+local.properties
+.externalNativeBuild/
+.cxx/
+captures/
+
+# 🗂️ IDE & System files
 *.iml
 .idea/
 misc.xml
 deploymentTargetDropDown.xml
 render.experimental.xml
+*.log
+.DS_Store
+Thumbs.db
 
-# Keystore files
-*.jks
-*.keystore
-
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
+# 🧪 Testing & Profiling
 *.hprof
+
+# 🎯 BIPRAYER SPECIFIC SECURITY
+/app/src/main/assets/keys.properties
+/user_data/
+/cache/
+/temp/
+/captured_images/
