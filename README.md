@@ -623,5 +623,13 @@ This comprehensive README provides:
 · ✅ Security considerations
 · ✅ Multi-language support details
 · ✅ Contact and support information
+
+
+## 🏅 Certification Hackathon lablab.ai
+
+J’ai participé au hackathon organisé par **lablab.ai**, où j'ai présenté le projet **BIPrayer AI Genesis**.
+
+📜 **Certificat de participation :**  
+➡️ [Voir le certificat](https://lablab.ai/u/@Bcbeye/cmi69qsel00ks6f0s7he5mcqu)
  
 
