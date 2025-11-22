@@ -631,5 +631,8 @@ J’ai participé au hackathon organisé par **lablab.ai**, où j'ai présenté 
 
 📜 **Certificat de participation :**  
 ➡️ [Voir le certificat](https://lablab.ai/u/@Bcbeye/cmi69qsel00ks6f0s7he5mcqu)
+
+
+<img src="Certificat_First_Hackaton.webp" width="200" alt="Lablab ai Hackathon">
  
 
